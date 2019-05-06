@@ -1,0 +1,104 @@
+body {
+	font-family: 'Quicksand', serif;
+	background: #672DA8;
+	color: white;
+	font-weight: 400;
+}
+
+#welcome {
+	margin: 200px auto 75px auto;
+	text-align: center;
+}
+
+#welcome h1 {
+	line-height: 10px;
+	font-weight: 400;
+	font-size: 48px;
+}
+
+#welcome h1.quiz {
+	color: red;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+	font-weight: 700;
+	margin-top: 65px;
+}
+
+#content {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+#content button#start-btn {
+	background: green;
+	color: white;
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, .3);
+	margin: auto;
+	font-family: 'Quicksand', serif;
+	outline: none;
+	cursor: pointer;
+	padding: 20px 40px;
+	font-size: 32px;
+	font-weight: 700;
+	border-radius: 10px;
+	border: none;
+	text-transform: uppercase;
+}
+
+#questions {
+	margin: 200px 0 100px 0;
+}
+
+.q1, .q2, .q3, .q4, .q5, .options, #thankYou {
+	display: none;
+}
+
+.correct, .wrong {
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-family: 'Quicksand', serif;
+	font-weight: 700;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .3);
+	margin-right: 10px;
+	font-size: 24px;
+	cursor: pointer;
+	outline: none;
+}
+
+.a1 .o1,
+.a2 .o1,
+.a3 .o1,
+.a4 .o1,
+.a5 .o1 {
+	background: #FF6051;
+}
+
+.a1 .o2,
+.a2 .o2,
+.a3 .o2,
+.a4 .o2,
+.a5 .o2 {
+	background: #FA3EF7;
+}
+
+.a1 .o3,
+.a2 .o3,
+.a3 .o3,
+.a4 .o3,
+.a5 .o3 {
+	background: #02BCF5;
+}
+
+.a1 .o4,
+.a2 .o4,
+.a3 .o4,
+.a4 .o4,
+.a5 .o4 {
+	background: #FBC02D;
+}
+
+.option {
+	margin-top: 10px;
+}
